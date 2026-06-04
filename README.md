@@ -14,10 +14,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 3.7h | 7.7h | 7.7h | 7.7h |
-| AI concurrency hours | 3.9h | 8.6h | 8.6h | 8.6h |
-| Interactive sessions | 12 | 21 | 21 | 21 |
-| Worker sessions | 36 | 78 | 78 | 78 |
+| AI worker hours | 3.0h | 8.7h | 8.7h | 8.7h |
+| AI concurrency hours | 3.3h | 9.6h | 9.6h | 9.6h |
+| Interactive sessions | 11 | 21 | 21 | 21 |
+| Worker sessions | 29 | 86 | 86 | 86 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -27,9 +27,9 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 2,585 | 0M | 0K | 0M | $57.57 | $0.00 | $0.00 |
+| gpt-5.5 | 2,839 | 0M | 0K | 0M | $62.66 | $0.00 | $0.00 |
 | gpt-5.4-mini | 26 | 0K | 0K | 0K | $0.05 | $0.00 | $0.00 |
-| **Total** | **2,611** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **2,865** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 92.2% cache hit rate._
 
@@ -41,9 +41,9 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 2,585 | 0M | 0K | 0M | $57.57 | $0.00 | $0.00 |
+| gpt-5.5 | 2,839 | 0M | 0K | 0M | $62.66 | $0.00 | $0.00 |
 | gpt-5.4-mini | 26 | 0K | 0K | 0K | $0.05 | $0.00 | $0.00 |
-| **Total** | **2,611** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **2,865** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 92.2% cache hit rate._
 
@@ -61,5 +61,5 @@ _Model savings are modest because ~92.2% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-04 08:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-04 11:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
