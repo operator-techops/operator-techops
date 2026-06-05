@@ -14,10 +14,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 3.3h | 10.3h | 10.3h | 10.3h |
-| AI concurrency hours | 3.4h | 11.1h | 11.1h | 11.1h |
+| AI worker hours | 3.4h | 10.5h | 10.5h | 10.5h |
+| AI concurrency hours | 3.5h | 11.4h | 11.4h | 11.4h |
 | Interactive sessions | 8 | 24 | 24 | 24 |
-| Worker sessions | 30 | 99 | 99 | 99 |
+| Worker sessions | 30 | 102 | 102 | 102 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -27,29 +27,29 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 3,108 | 0M | 0K | 0M | $67.50 | $0.00 | $0.00 |
+| gpt-5.5 | 3,178 | 0M | 0K | 0M | $68.69 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **3,275** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **3,345** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
-_0M total tokens processed. 92.3% cache hit rate._
+_0M total tokens processed. 92.2% cache hit rate._
 
 _$0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.2% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 3,108 | 0M | 0K | 0M | $67.50 | $0.00 | $0.00 |
+| gpt-5.5 | 3,178 | 0M | 0K | 0M | $68.69 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **3,275** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **3,345** | **0M** | **0K** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
-_0M total tokens processed. 92.3% cache hit rate._
+_0M total tokens processed. 92.2% cache hit rate._
 
 _$0.00 total saved ($0.00 caching + $0.00 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.3% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.2% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 <!-- CONTRIBUTIONS-START -->
@@ -63,5 +63,5 @@ _Model savings are modest because ~92.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-04 23:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-05 02:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
