@@ -14,10 +14,10 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 1.5h | 7.7h | 37.0h | 37.0h |
-| AI concurrency hours | 1.7h | 7.9h | 39.0h | 39.0h |
+| AI worker hours | 1.6h | 7.8h | 37.1h | 37.1h |
+| AI concurrency hours | 1.8h | 7.9h | 39.1h | 39.1h |
 | Interactive sessions | 1 | 1 | 23 | 23 |
-| Worker sessions | 24 | 159 | 550 | 550 |
+| Worker sessions | 24 | 159 | 551 | 551 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
@@ -29,9 +29,9 @@ _AI session 365-day totals cover 21 days of local assistant session history (not
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 10,013 | 0M | 0M | 0M | $191.79 | $0.00 | $0.00 |
+| gpt-5.5 | 10,028 | 0M | 0M | 0M | $192.14 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **10,180** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **10,195** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 89.2% cache hit rate._
 
@@ -43,9 +43,9 @@ _Model savings are modest because ~89.2% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 10,013 | 0M | 0M | 0M | $191.79 | $0.00 | $0.00 |
+| gpt-5.5 | 10,028 | 0M | 0M | 0M | $192.14 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **10,180** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **10,195** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 89.3% cache hit rate._
 
@@ -65,5 +65,5 @@ _Model savings are modest because ~89.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-24 02:01 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-24 03:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
