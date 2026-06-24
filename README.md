@@ -14,24 +14,24 @@
 | --- | ---: | ---: | ---: | ---: |
 | Screen time (Linux) | 24h | 0h | 0h | ~0h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI worker hours | 2.2h | 8.0h | 38.0h | 38.0h |
-| AI concurrency hours | 2.4h | 8.2h | 40.0h | 40.0h |
-| Interactive sessions | 1 | 1 | 23 | 23 |
-| Worker sessions | 24 | 158 | 555 | 555 |
+| AI worker hours | 2.3h | 8.0h | 38.1h | 38.1h |
+| AI concurrency hours | 2.5h | 8.2h | 40.1h | 40.1h |
+| Interactive sessions | 2 | 2 | 24 | 24 |
+| Worker sessions | 24 | 158 | 556 | 556 |
 
 _Screen time from systemd-logind session events, snapshotted daily. *365-day extrapolated (accumulating real data)._
 
 _User AI session hours are attended interactive time measured from gaps between AI responses and the next user message; AI concurrency hours include attended time, AI generation, and background workers._
 
-_AI session 365-day totals cover 21 days of local assistant session history (not extrapolated)._
+_AI session 365-day totals cover 22 days of local assistant session history (not extrapolated)._
 
 ## AI Model Usage (last 30 days)
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 10,131 | 0M | 0M | 0M | $194.02 | $0.00 | $0.00 |
+| gpt-5.5 | 10,145 | 0M | 0M | 0M | $194.38 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **10,298** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **10,312** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 89.2% cache hit rate._
 
@@ -43,9 +43,9 @@ _Model savings are modest because ~89.2% of tokens are cache reads, where price 
 
 | Model | Requests | Input | Output | Cache read | API Cost | Cache savings | Model savings |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| gpt-5.5 | 10,131 | 0M | 0M | 0M | $194.02 | $0.00 | $0.00 |
+| gpt-5.5 | 10,145 | 0M | 0M | 0M | $194.38 | $0.00 | $0.00 |
 | gpt-5.4-mini | 167 | 0K | 0K | 0M | $0.52 | $0.00 | $0.00 |
-| **Total** | **10,298** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
+| **Total** | **10,312** | **0M** | **0M** | **0M** | **$0.00** | **$0.00** | **$0.00** |
 
 _0M total tokens processed. 89.3% cache hit rate._
 
@@ -65,5 +65,5 @@ _Model savings are modest because ~89.3% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-06-24 08:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-06-24 09:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
